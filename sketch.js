@@ -47,7 +47,7 @@ function setup() {
   mario.scale = 1.7;
 
   //Creating Ground
-  ground = createSprite(200, 360, 600, 600);
+  ground = createSprite(200, 360, windowWidth,windowHeight);
   ground.addImage("ground", groundImg);
   ground.x = ground.width / 2;
   ground.velocityX = -7;
@@ -57,7 +57,7 @@ function setup() {
   obstacleGroup = createGroup();
 
   //Game Over & Restart Display
-  gameover = createSprite(300, 190);
+  gameover = createSprite(600, 190);
   gameover.addImage(gameoverImg);
   restart = createSprite(300, 230);
   restart.addImage(restartImg);
