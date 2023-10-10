@@ -31,7 +31,8 @@ Welcome to the Super Mario game created using p5.js! Get ready to embark on a no
 
 - **Character Design:**
   - Super Mario characters are the property of Nintendo.
-
+## Deployment
+Used Vercel to deploy the page.
 ## Contributions
 
 Feel free to contribute to the game by forking the repository and submitting pull requests. Bug fixes, new features, and improvements are always welcome!
