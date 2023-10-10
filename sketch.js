@@ -59,7 +59,7 @@ function setup() {
   //Game Over & Restart Display
   gameover = createSprite(600, 190);
   gameover.addImage(gameoverImg);
-  restart = createSprite(600, 230);
+  restart = createSprite(900, 230);
   restart.addImage(restartImg);
   gameover.scale = 0.7;
   restart.scale = 0.5;
