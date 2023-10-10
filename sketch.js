@@ -47,7 +47,7 @@ function setup() {
   mario.scale = 1.7;
 
   //Creating Ground
-  ground = createSprite(200, 360, 600, 10);
+  ground = createSprite(200, 360, 600, 100);
   ground.addImage("ground", groundImg);
   ground.x = ground.width / 2;
   ground.velocityX = -7;
