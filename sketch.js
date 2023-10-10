@@ -38,7 +38,7 @@ function preload() {
 
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(windowWidth,windowHeight);
 
   //Creating Mario
   mario = createSprite(50, 300, 20, 50);
